@@ -1,0 +1,184 @@
+.top-banner {
+	height: 4.266666rem;
+}
+
+.top-banner img {
+	width: 100%;
+}
+
+.top-panic {
+	height: 1.333333rem;
+	background-color: #f10000;
+}
+
+.bar-fixed{
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 9999;
+	width: 100%;
+}
+
+.panic-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.panic-list p {
+	height: 0.373333rem;
+	line-height: 0.4rem;
+	text-align: center;
+	color: #fff;
+	font-size: .36rem;
+}
+
+.panic-list p.panic-title {
+	font-size: 0.4rem;
+}
+
+.panic-list .panic-now {
+	padding: 0 .2rem;
+	background-color: #fff;
+	border-radius: 0.186666rem;
+	color: #f10000;
+}
+
+.index-shop-list {
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	height: 2.6rem;
+	padding: 0.293333rem 0.346666rem;
+	background-color: #fff;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+.shop-img {
+	width: 2rem;
+	height: 2rem;
+	object-fit: cover;
+}
+
+.shop-data {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 5.2rem;
+}
+
+.shop-title {
+	overflow: hidden;
+	font-size: 0.346666rem;
+	color: #282828;
+	line-height: 0.4rem;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.shop-ticket {
+	display: flex;
+	align-items: center;
+	height: 0.4rem;
+	color: #f10000;
+	font-size: 0.373333rem;
+}
+
+.shop-ticket img {
+	width: 0.613333rem;
+	height: 0.266666rem;
+	margin-right: 0.133333rem;
+}
+
+.shop-money {
+	display: flex;
+	align-items: center;
+	height: .6rem;
+}
+
+.shop-price {
+	width: 60%;
+	font-size: 0.48rem;
+	color: #f10000;
+}
+
+.shop-price span {
+	font-size: 0.32rem;
+}
+
+.has-panic,
+.has-number {
+	font-size: 0.28rem;
+	color: #acacac;
+	line-height: 0.366666rem;
+}
+
+.has-panic span,
+.has-number span {
+	color: #282828;
+}
+
+.shop-handle {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+}
+
+.shop-handle button {
+	width: 2rem;
+	height: 0.6rem;
+	padding: 0;
+	border: none;
+	border-radius: 0.066666rem;
+	background-color: #f10000;
+	color: #fff;
+	line-height: 0.6rem;
+	font-size: 0.346666rem;
+	text-align: center;
+	outline: none;
+}
+
+.shop-handle p {
+	width: 2rem;
+	height: 0.4rem;
+	border-radius: 0.4rem;
+	margin-top: 0.266666rem;
+	background-color: #e60012;
+	text-align: center;
+	font-size: 0.24rem;
+	color: #fff;
+	line-height: 0.4rem;
+}
+
+.shop-handle button.has-none,
+.shop-handle p.has-none span {
+	background-color: #ACACAC;
+}
+
+.shop-status {
+	position: relative;
+	line-height: .4rem;
+}
+
+.status-title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 9;
+	width: 100%;
+	height: 100%;
+	border-radius: .3rem;
+	text-align: center;
+	line-height: .4rem;
+}
+
+.shop-progress {
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 100%;
+	background-color: rgba(255,255,255,.4);
+}
